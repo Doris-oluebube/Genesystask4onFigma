@@ -1,0 +1,318 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    background-color: #ffffff;
+    width: 100%;
+    min-height: 2000px;
+}
+
+.nav{
+    background-color: rgb(199, 195, 211);
+    word-spacing: 20px;
+    min-width: 100%;
+    min-height: 30px;
+    /* border: 2px solid green; */
+    margin-top: 0px;
+    word-spacing: 20px;
+    background-color: #ffffff;
+    padding-top: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+    position: fixed;
+    
+}
+
+.nav .navs1{
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 20px;
+}
+
+.nav .navs2{
+   min-width: 60%;
+   min-height: 30px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+    text-align: center;   
+}
+
+.nav .navs2 ul{
+    list-style-type: none;
+}
+
+.nav .navs2 ul li{
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px 20px;
+    font-size: 20px;
+}
+.nav .navs2 ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav .navs3{
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px 20px;
+}
+
+.nav .navs3 button{
+    background-color: #6FC247;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+    border: none;
+}
+
+.stage1{
+    min-width: 50%;
+    min-height: 200px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    /* border: 3px solid red; */
+    margin: 20px;
+    display: inline-block;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+.stage1 .text h1{
+    text-align: center;
+}
+.stage1 .text p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.stage1 .buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.stage1 .buttons .btn1{
+    background-color: #6FC247;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+.stage1 .buttons .btn2{
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #6FC247;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.stage3{
+    min-width: 100%;
+    min-height: 500px;
+    /* border: 2px solid blue; */
+    margin: 50px;
+}
+
+.stage3 .text h2{
+    text-align: center;
+    font-size: 30px;
+}
+.stage3 .text p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.stage3 .logos{
+    /* border: 2px solid blue; */
+    display: grid;
+}
+.stage3 .logos .firstset{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px;
+    /* flex-wrap: nowrap; */
+}
+.stage3 .logos .secondset{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px;
+    /* flex-wrap: nowrap; */
+}
+.stage3 .logos .thirdset{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px;
+    /* flex-wrap: nowrap; */
+}
+.stage3 .logos img{
+    background-color: #aaaaaa59;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    /* display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto; */
+}
+
+.stage4{
+    min-width: 100%;
+    min-height: 200px;
+    background-color: black;
+    padding: 50px;
+}
+.stage4 .why h2{
+    color: white;
+    text-align: left;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.stage4 .why p{
+    color: white;
+   text-align: justify;
+   padding-bottom: 20px;
+   font-size: 20px;
+}
+
+.stage4 .why2{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.stage4 .why2 .secure h3{
+    color: white;
+    padding-bottom: 15px;
+}
+.stage4 .why2 .secure p{
+    color: white;
+    
+}
+
+.stage4 .why2 .reliable h3{
+    color: white;
+    padding-bottom: 15px;
+}
+.stage4 .why2 .reliable p{
+    color: white;
+    padding-bottom: 15px;
+   
+}
+
+.stage4 .why2 .dedicated h3{
+    color: white;
+    padding-bottom: 15px;
+}
+.stage4 .why2 .dedicated p{
+    color: white;
+    
+}
+
+.stage5{
+    min-width: 100%;
+    min-height: 300px;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid green; */
+}
+.stage5 .first{
+    /* border: 2px solid blue; */
+    padding: 40px;
+    
+}
+.stage5 .first .first1 h2{
+    padding-bottom: 10px;
+    font-size: 30px; 
+}
+.stage5 .first .first1 p{
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+.stage5 .first .first2{
+    padding-left: 20px;
+}
+
+.stage5 .first .first2 h3{
+    padding-bottom: 10px;
+    font-size: 24px; 
+}
+.stage5 .first .first2 p{
+    padding-bottom: 50px;
+    font-size: 20px; 
+}
+
+.stage5 .first .first3{
+    padding-left: 20px;
+}
+
+.stage5 .first .first3 h3{
+    padding-bottom: 10px;
+    font-size: 24px; 
+}
+.stage5 .first .first3 p{
+    padding-bottom: 50px;
+    font-size: 20px;
+    
+}
+
+.stage5 .first .first4{
+    padding-left: 20px;
+}
+
+.stage5 .first .first4 h3{
+    padding-bottom: 10px;
+    font-size: 24px; 
+}
+.stage5 .first .first4 p{
+    padding-bottom: 50px;
+    font-size: 20px;
+    
+}
+
+.stage5 .second{
+    /* border: 2px solid blue; */
+    padding: 40px;
+    
+    
+}
+
+.button{
+    min-width: 30px;
+    /* border: 2px solid blue; */
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.button .btn {
+    background-color: #6FC247;
+    width: 20%;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    margin-left: 500px;
+    margin-left: 500px;
+    
+}
